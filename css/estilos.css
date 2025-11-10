@@ -499,4 +499,8 @@ footer {
   z-index: 200;
 }
 
+.boton-flotante:hover {
+  background-color: var(--azul-oscuro);
+  transform: scale(1.05);
+}
 
