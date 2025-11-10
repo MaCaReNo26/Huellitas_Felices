@@ -481,39 +481,3 @@ footer {
         width: 100%;
     }
 }
-
-/* === MENÚ HAMBURGUESA RESPONSIVE === */
-.menu-toggle {
-    display: none;
-    font-size: 28px;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 25px;
-    right: 30px;
-    z-index: 200;
-}
-
-/* Estilos cuando el ancho es menor a 768px */
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        background-color: var(--azul-medio);
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        gap: 20px;
-        padding: 20px 0;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
