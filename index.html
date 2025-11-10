@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huellitas Felices</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>HUELLITAS FELICES</h1>
+    <!-- BOTÓN MENÚ HAMBURGUESA -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      ☰
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="informacion.html">INFORMACIÓN</a></li>
+        <li><a href="adopta.html">ADOPTA</a></li>
+        <li><a href="contacto.html">CONTACTOS</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+      </ul>
+    </nav>
+    <div class="login-acceso">
+      <a href="login.html">Iniciar Sesión</a>
+    </div>
+  </header>
+
+  <!-- SECCION PRINCIPAL -->
+  <section class="banner">
+    <h2>Dales un hogar lleno de</h2>
+    <h3>AMOR</h3>
+    <button onclick="window.location.href='informacion.html'">INFORMACIÓN</button>
+    <img src="IMAGENES HF/golden.png" alt="Perrito feliz" class="perrito">
+    <img src="IMAGENES HF/Crosado.png" alt="Corazón con huella" class="corazon">
+  </section>
+
+  <!-- SECCION INICIO -->
+  <section class="inicio">
+    <h2>INICIO</h2>
+    <div class="contenedor">
+      <div class="caja">
+        <img src="IMAGENES HF/casita.png" alt="Casita">
+        <button onclick="window.location.href='informacion.html'">INFORMACIÓN</button>
+      </div>
+
+      <div class="caja">
+        <img src="IMAGENES HF/Crosado.png" alt="Corazón">
+        <button onclick="window.location.href='contacto.html'">CAMBIA UNA VIDA</button>
+      </div>
+
+      <div class="caja">
+        <img src="IMAGENES HF/Gblanco.png" alt="Gatito feliz">
+        <button onclick="window.location.href='adopta.html'">CONOCE A NUESTROS PELUDOS</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Huellitas Felices - Todos los derechos reservados 🐾</p>
+  </footer>
+</body>
+
+</html>
